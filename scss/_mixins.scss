@@ -1,0 +1,10 @@
+@mixin flex($justify-direction, $alignitem-direction, $flex-direction) {
+  display: flex;
+  justify-content: $justify-direction;
+  align-items: $alignitem-direction;
+}
+
+@mixin colors {
+    background-color: $background-color;
+    border: 1px darken($color: $background-color, $amount: 7) solid;
+}

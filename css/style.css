@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #4e4d4d;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header ul li {
+  padding: 0.6rem;
+}
+
+section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .main-content {
+  width: 60%;
+  color: #4e4d4d;
+  text-align: center;
+}
+
+section .main-content .search form .search-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px #aaaaaa solid;
+  width: 70%;
+  margin: 1.5rem auto;
+  border-radius: 100px;
+}
+
+section .main-content .search form .search-block input {
+  border: none;
+  width: 85%;
+  height: 40px;
+  font-size: 1.5rem;
+  outline: none;
+  padding-left: 10px;
+}
+
+section .main-content .search form .search-block img {
+  width: 1.6rem;
+  height: auto;
+}
+
+section .main-content .search form .buttons .btn {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  margin: 0px 25px;
+}
+
+section .main-content .search form .buttons .btn:hover {
+  border: 0.6px solid #aaaaaa;
+}
+
+section .main-content .lang {
+  padding-top: 2rem;
+  font-size: 0.9em;
+}
+
+section .main-content .lang a {
+  padding-left: 10px;
+}
+
+footer .country {
+  width: 100%;
+  height: 2.5rem;
+  padding: 10px 10px;
+  background-color: #f2f2f2;
+  border: 1px #e0e0e0 solid;
+}
+
+footer .end-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 1px #e0e0e0 solid;
+  border-top: none;
+}
+
+footer .end-footer .left, footer .end-footer .right {
+  width: 50%;
+}
+
+footer .end-footer .left ul, footer .end-footer .right ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.9em;
+  padding: 10px 10px;
+}
+
+footer .end-footer .left ul li, footer .end-footer .right ul li {
+  padding-right: 15px;
+}
+
+footer .end-footer .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media (max-width: 1100px) {
+  .search-block {
+    padding: 0 10px;
+  }
+}
