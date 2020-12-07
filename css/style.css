@@ -111,7 +111,7 @@ footer .end-footer .left ul, footer .end-footer .right ul {
   justify-content: flex-start;
   align-items: center;
   font-size: 0.9em;
-  padding: 10px 10px;
+  padding: 1rem;
 }
 
 footer .end-footer .left ul li, footer .end-footer .right ul li {
@@ -127,5 +127,15 @@ footer .end-footer .right {
 @media (max-width: 1100px) {
   .search-block {
     padding: 0 10px;
+  }
+  .buttons .btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .end-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }

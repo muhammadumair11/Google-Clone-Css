@@ -100,7 +100,7 @@ footer {
       ul {
         @include flex(flex-start, center, row);
         font-size: 0.9em;
-        padding: 10px 10px;
+        padding: 1rem;
         li {
           padding-right: 15px;
         }
@@ -116,5 +116,14 @@ footer {
 @media (max-width: 1100px) {
   .search-block {
     padding: 0 10px;
+  }
+  .buttons {
+    .btn {
+      @include flex(center, flex-start, column)
+    }
+  }
+  .end-footer {
+    @include flex (flex-start, flex-start, column); 
+    
   }
 }
